@@ -1,0 +1,458 @@
+{
+  "book": "Recreating 3D Monster Maze with MonoGame for Android and iOS",
+  "chapters": [
+    {
+      "number": 1,
+      "part": "Part I — Foundations",
+      "title": "Welcome to the Maze",
+      "topics": [
+        "The story of 3D Monster Maze and why it still frightens players",
+        "What we are building: a modern, full-colour, high-resolution MonoGame remake for Android and iOS",
+        "The feature list: the 3D maze, Rex, three difficulty levels, sound, visual effects, the high score table and the two endings",
+        "How to use this book and the accompanying source code"
+      ]
+    },
+    {
+      "number": 2,
+      "part": "Part I — Foundations",
+      "title": "Setting Up Your Tools",
+      "topics": [
+        "Installing the .NET SDK and the MonoGame project templates",
+        "Choosing an IDE: Rider or Visual Studio",
+        "Configuring the Android SDK, emulators and physical devices",
+        "Setting up Xcode, signing and provisioning, and deploying to an iPhone or iPad",
+        "Mac users: preparing a Windows virtual machine in Parallels for compiling shaders",
+        "Building and running “Hello Maze” on both platforms"
+      ]
+    },
+    {
+      "number": 3,
+      "part": "Part I — Foundations",
+      "title": "One Game, Two Platforms",
+      "topics": [
+        "Structuring the solution: a shared game library with Android and iOS projects",
+        "The MonoGame Content Pipeline and the MGCB Editor",
+        "Keeping platform-specific code to a minimum",
+        "Handling screen sizes, aspect ratios, orientation and safe areas (notches and rounded corners)"
+      ]
+    },
+    {
+      "number": 4,
+      "part": "Part I — Foundations",
+      "title": "The Game Loop and Game States",
+      "topics": [
+        "Inside the Game class: Initialize, LoadContent, Update and Draw",
+        "GameTime, fixed time steps and frame-rate independence",
+        "Building a screen manager: title, menu, gameplay, pause, game over and high scores",
+        "Passing data between screens: difficulty, score and how the game ended",
+        "Handling the Android back button and back gesture"
+      ]
+    },
+    {
+      "number": 5,
+      "part": "Part II — Building the Maze",
+      "title": "Representing the Maze",
+      "topics": [
+        "The maze as a grid of cells and walls",
+        "Directions, headings and neighbour lookups",
+        "Designing a Maze class that is easy to test"
+      ]
+    },
+    {
+      "number": 6,
+      "part": "Part II — Building the Maze",
+      "title": "Generating Random Mazes",
+      "topics": [
+        "A brand-new, randomly created maze for every game",
+        "Perfect mazes and the recursive backtracker algorithm",
+        "Random seeds: a fresh seed for each game, and fixed seeds for reproducible mazes when testing",
+        "Adding loops and dead ends to control difficulty",
+        "Placing the start and the exit as far apart as possible using breadth-first search",
+        "Making sure every maze can be solved"
+      ]
+    },
+    {
+      "number": 7,
+      "part": "Part II — Building the Maze",
+      "title": "Seeing the Maze from Above",
+      "topics": [
+        "Drawing a 2D debug map with SpriteBatch",
+        "Showing the player, Rex and the exit on the map",
+        "Developer tools: debug toggles, overlays and displaying the maze seed"
+      ]
+    },
+    {
+      "number": 8,
+      "part": "Part III — Into the Third Dimension",
+      "title": "3D Fundamentals in MonoGame",
+      "topics": [
+        "Coordinate systems, vectors and matrices",
+        "World, view and projection transforms",
+        "Vertices, primitives and BasicEffect",
+        "The GraphicsDevice: depth buffer, culling and render states"
+      ]
+    },
+    {
+      "number": 9,
+      "part": "Part III — Into the Third Dimension",
+      "title": "Turning a Grid into a World",
+      "topics": [
+        "Generating wall, floor and ceiling geometry from the maze data",
+        "Vertex and index buffers: building the whole maze as a single mesh",
+        "Only building the faces the player can see",
+        "Marking the exit in the 3D world"
+      ]
+    },
+    {
+      "number": 10,
+      "part": "Part III — Into the Third Dimension",
+      "title": "The First-Person Camera",
+      "topics": [
+        "Placing the camera at eye height inside a cell",
+        "Field of view for phones and tablets in portrait and landscape",
+        "Near and far clipping planes for long corridors"
+      ]
+    },
+    {
+      "number": 11,
+      "part": "Part III — Into the Third Dimension",
+      "title": "Textures, Lighting and Atmosphere",
+      "topics": [
+        "High-resolution, full-colour textures for walls, floors and ceilings",
+        "Using fog to create darkness and limit how far the player can see",
+        "Coloured torch-style lighting and fall-off with distance",
+        "Art direction: a rich, colourful look that still feels dark and threatening"
+      ]
+    },
+    {
+      "number": 12,
+      "part": "Part III — Into the Third Dimension",
+      "title": "High-Resolution Graphics on Mobile",
+      "topics": [
+        "Rendering at the device’s native resolution, including Retina and high-density Android screens",
+        "Mipmapping, anisotropic filtering and anti-aliasing (MSAA)",
+        "Texture compression formats for Android and iOS",
+        "Graphics quality settings for older and newer devices"
+      ]
+    },
+    {
+      "number": 13,
+      "part": "Part III — Into the Third Dimension",
+      "title": "Moving Through the Maze",
+      "topics": [
+        "Grid-based movement: step forward, step back, turn left and turn right",
+        "Animating steps and 90-degree turns smoothly",
+        "Wall collision and blocked moves",
+        "Head bob and footstep timing"
+      ]
+    },
+    {
+      "number": 14,
+      "part": "Part III — Into the Third Dimension",
+      "title": "Touch Controls",
+      "topics": [
+        "Reading input with TouchPanel and gestures",
+        "Swipe controls or on-screen buttons",
+        "Designing controls that work one-handed, in the dark and under pressure",
+        "Haptic feedback on Android and iOS",
+        "An input layer for touch, plus keyboard and gamepad for testing"
+      ]
+    },
+    {
+      "number": 15,
+      "part": "Part III — Into the Third Dimension",
+      "title": "Finding the Exit",
+      "topics": [
+        "Making the exit stand out: light spilling around the corner",
+        "Detecting when the player reaches the exit",
+        "Starting the escape sequence"
+      ]
+    },
+    {
+      "number": 16,
+      "part": "Part IV — Rex, the Monster in the Maze",
+      "title": "Bringing Rex to Life",
+      "topics": [
+        "Rex as a detailed, full-colour 3D model or high-resolution animated sprites: choosing an approach",
+        "Drawing Rex inside the 3D world with correct depth",
+        "Animating Rex: idle, walking, spotting the player and lunging",
+        "Making Rex more menacing the closer he gets"
+      ]
+    },
+    {
+      "number": 17,
+      "part": "Part IV — Rex, the Monster in the Maze",
+      "title": "Rex’s Senses",
+      "topics": [
+        "Grid-based line of sight down corridors",
+        "Hearing: detecting the player’s footsteps through the maze",
+        "Measuring distance in steps through the maze, not in straight lines"
+      ]
+    },
+    {
+      "number": 18,
+      "part": "Part IV — Rex, the Monster in the Maze",
+      "title": "Hunting the Player: Pathfinding",
+      "topics": [
+        "Breadth-first search and A* on a grid",
+        "Recalculating paths efficiently as the player moves",
+        "Rex’s movement timing and speed"
+      ]
+    },
+    {
+      "number": 19,
+      "part": "Part IV — Rex, the Monster in the Maze",
+      "title": "Rex’s Brain: A State Machine",
+      "topics": [
+        "Lurking: waiting somewhere in the dark",
+        "Hunting: searching for the player",
+        "Stalking: closing in",
+        "Charging: the final run once Rex has seen the player",
+        "Attacking: catching the player",
+        "Moving between states and keeping Rex unpredictable"
+      ]
+    },
+    {
+      "number": 20,
+      "part": "Part IV — Rex, the Monster in the Maze",
+      "title": "The Warnings",
+      "topics": [
+        "Proximity messages in the spirit of the original: “Rex lies in wait”, “Footsteps approaching”, “Run, he is behind you”",
+        "Choosing which message to show and when",
+        "Animating and colouring the messages as the danger rises"
+      ]
+    },
+    {
+      "number": 21,
+      "part": "Part IV — Rex, the Monster in the Maze",
+      "title": "Tuning the Fear",
+      "topics": [
+        "Where Rex starts and how long he waits",
+        "Keeping the chase fair: escape routes and near misses",
+        "Playtesting and adjusting the tension"
+      ]
+    },
+    {
+      "number": 22,
+      "part": "Part V — Rules, Scoring and Difficulty",
+      "title": "Scoring",
+      "topics": [
+        "Points for exploring: rewarding each step",
+        "Survival, near-miss and escape bonuses",
+        "The difficulty multiplier"
+      ]
+    },
+    {
+      "number": 23,
+      "part": "Part V — Rules, Scoring and Difficulty",
+      "title": "Designing Three Difficulty Levels",
+      "topics": [
+        "Easy, Normal and Hard: what each level should feel like",
+        "What changes between levels: maze size, dead ends and loops, fog distance, Rex’s speed, senses and head start, and how much warning the player gets",
+        "A DifficultySettings class so every system reads from one place"
+      ]
+    },
+    {
+      "number": 24,
+      "part": "Part V — Rules, Scoring and Difficulty",
+      "title": "Implementing and Balancing Difficulty",
+      "topics": [
+        "The difficulty selection screen",
+        "Applying the settings to the random maze generator, Rex’s AI, lighting and scoring",
+        "Remembering the player’s last choice",
+        "Testing and balancing each level"
+      ]
+    },
+    {
+      "number": 25,
+      "part": "Part V — Rules, Scoring and Difficulty",
+      "title": "The Heads-Up Display",
+      "topics": [
+        "Score, difficulty and warning messages",
+        "The pause button and a touch-friendly layout",
+        "Scaling the HUD and SpriteFonts across screen densities"
+      ]
+    },
+    {
+      "number": 26,
+      "part": "Part VI — Sound",
+      "title": "Audio in MonoGame",
+      "topics": [
+        "SoundEffect, SoundEffectInstance and Song",
+        "Audio formats and the Content Pipeline for Android and iOS",
+        "An audio manager for sound effects, music and volume settings"
+      ]
+    },
+    {
+      "number": 27,
+      "part": "Part VI — Sound",
+      "title": "Sound Effects of the Maze",
+      "topics": [
+        "The player’s footsteps and bumping into walls",
+        "Rex’s thundering footsteps, snorts and roar",
+        "A heartbeat that speeds up as Rex gets closer",
+        "Ambient sounds: drips, echoes and distant rumbles",
+        "The sounds of being eaten and of escaping"
+      ]
+    },
+    {
+      "number": 28,
+      "part": "Part VI — Sound",
+      "title": "Positional Audio and Tension",
+      "topics": [
+        "AudioEmitter and AudioListener: hearing where Rex is",
+        "Volume and muffling based on distance through the maze",
+        "Using dynamic music, and silence, to build tension",
+        "Mobile audio: the silent switch, interruptions and headphones"
+      ]
+    },
+    {
+      "number": 29,
+      "part": "Part VII — Visual Effects",
+      "title": "Render Targets and Custom Effects",
+      "topics": [
+        "Rendering to a RenderTarget2D for post-processing",
+        "Writing and compiling custom effects (shaders) for mobile",
+        "Compiling shaders on a Mac: the effect compiler needs Windows (or Wine), so we run it in a Parallels Windows virtual machine",
+        "Automating the shader build with a script and shipping the precompiled effects with each platform project",
+        "Anti-aliasing and render targets: what OpenGL ES on phones can and cannot do",
+        "Performance considerations on phones and tablets"
+      ]
+    },
+    {
+      "number": 30,
+      "part": "Part VII — Visual Effects",
+      "title": "Danger Effects",
+      "topics": [
+        "Screen shake as Rex’s footsteps land",
+        "A red vignette and pulsing screen edges as he closes in",
+        "Flicker, flash and blur for moments of panic"
+      ]
+    },
+    {
+      "number": 31,
+      "part": "Part VII — Visual Effects",
+      "title": "Colour Grading and Glow",
+      "topics": [
+        "Colour grading to shift the mood as the danger rises",
+        "Bloom and glow: the light pouring from the exit",
+        "Keeping colours vivid and readable on phone screens in bright light and in the dark"
+      ]
+    },
+    {
+      "number": 32,
+      "part": "Part VII — Visual Effects",
+      "title": "Transitions and Particles",
+      "topics": [
+        "Fades and wipes between screens",
+        "Dust and debris particles",
+        "Title screen effects"
+      ]
+    },
+    {
+      "number": 33,
+      "part": "Part VIII — Game Over",
+      "title": "Game Over State One: Eaten!",
+      "topics": [
+        "The final lunge: taking control away from the player",
+        "Rex’s jaws, the screen flash and the roar",
+        "The “You have been eaten” screen and the final score",
+        "Moving on to the high score table"
+      ]
+    },
+    {
+      "number": 34,
+      "part": "Part VIII — Game Over",
+      "title": "Game Over State Two: Escaped!",
+      "topics": [
+        "Stepping through the exit as light floods in",
+        "Adding up the escape bonus",
+        "The victory screen",
+        "Moving on to the high score table"
+      ]
+    },
+    {
+      "number": 35,
+      "part": "Part VIII — Game Over",
+      "title": "The Colourful High Score Table",
+      "topics": [
+        "Separate tables for Easy, Normal and Hard",
+        "Rainbow cycling text, gradients and glowing new entries",
+        "Animating the table: scrolling, sparkles and colour pulses",
+        "Showing how each game ended: eaten or escaped"
+      ]
+    },
+    {
+      "number": 36,
+      "part": "Part VIII — Game Over",
+      "title": "Entering Your Name",
+      "topics": [
+        "Arcade-style initials entry designed for touch",
+        "Using the on-screen keyboard on Android and iOS",
+        "Validating and storing entries"
+      ]
+    },
+    {
+      "number": 37,
+      "part": "Part VIII — Game Over",
+      "title": "Saving Scores and Settings",
+      "topics": [
+        "Where to store data on Android and iOS",
+        "Saving high scores and settings as JSON",
+        "Surviving app updates, reinstalls and corrupted files"
+      ]
+    },
+    {
+      "number": 38,
+      "part": "Part IX — Polish and Release",
+      "title": "Title Screen, Menus and Options",
+      "topics": [
+        "The title screen and attract mode",
+        "Main menu, difficulty select and options (sound, controls, graphics quality)",
+        "The How to Play screen"
+      ]
+    },
+    {
+      "number": 39,
+      "part": "Part IX — Polish and Release",
+      "title": "Pausing and the Mobile App Life Cycle",
+      "topics": [
+        "Pausing automatically when the app loses focus",
+        "Handling phone calls, notifications and backgrounding",
+        "Resuming safely in the middle of a chase"
+      ]
+    },
+    {
+      "number": 40,
+      "part": "Part IX — Polish and Release",
+      "title": "Performance on Mobile Devices",
+      "topics": [
+        "Measuring frame rate and draw calls",
+        "Keeping high-resolution rendering smooth: fill rate and resolution scaling",
+        "Avoiding garbage collection spikes",
+        "Battery life, heat and target frame rates"
+      ]
+    },
+    {
+      "number": 41,
+      "part": "Part IX — Polish and Release",
+      "title": "Testing on Real Devices",
+      "topics": [
+        "Testing across Android devices, iPhones and iPads",
+        "Automated tests for the maze generator, pathfinding and scoring",
+        "Beta testing with Google Play testing tracks and TestFlight"
+      ]
+    },
+    {
+      "number": 42,
+      "part": "Part IX — Polish and Release",
+      "title": "Publishing",
+      "topics": [
+        "App icons, splash screens and store artwork",
+        "Signing and releasing on Google Play",
+        "Signing and submitting to the App Store",
+        "What next? Ideas for extending the game"
+      ]
+    }
+  ]
+}

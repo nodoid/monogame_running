@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="MainTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+    <item name="android:windowBackground">@android:color/black</item>
+  </style>
+  <!--
+    Android 12 and later always show a system splash screen with the app's icon. These settings
+    make it match ours: Rex on black, followed by the logo while the game loads.
+  -->
+  <style name="Theme.Splash" parent="MainTheme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowSplashScreenBackground">@android:color/black</item>
+    <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+  </style>
+</resources>

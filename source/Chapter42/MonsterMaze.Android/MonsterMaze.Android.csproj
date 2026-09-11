@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>
+    <RootNamespace>MonsterMaze.Android</RootNamespace>
+    <AssemblyName>MonsterMaze</AssemblyName>
+    <!-- Each chapter gets its own application id so several chapters can be installed side by side. -->
+    <ApplicationId>com.monstermaze.chapter$(ChapterNumber)</ApplicationId>
+    <ApplicationTitle>Monster Maze $(ChapterNumber)</ApplicationTitle>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <MonoGamePlatform>Android</MonoGamePlatform>
+  </PropertyGroup>
+  <!-- Release builds produce a signed Android App Bundle for Google Play. -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <AndroidPackageFormat>aab</AndroidPackageFormat>
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <!-- Supply these on the command line or from your CI secrets, never commit them. -->
+    <AndroidSigningKeyStore>$(MONSTERMAZE_KEYSTORE)</AndroidSigningKeyStore>
+    <AndroidSigningKeyAlias>$(MONSTERMAZE_KEY_ALIAS)</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>$(MONSTERMAZE_KEY_PASS)</AndroidSigningKeyPass>
+    <AndroidSigningStorePass>$(MONSTERMAZE_STORE_PASS)</AndroidSigningStorePass>
+  </PropertyGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="..\MonsterMaze.Core\Content\MonsterMaze.mgcb" Link="Content\MonsterMaze.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Shaders are compiled ahead of time (see Tools/ShaderCompiler) and packaged as-is. -->
+    <AndroidAsset Include="..\MonsterMaze.Core\Content\Effects\Compiled\Android\*.xnb" Link="Content\Effects\%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MonsterMaze.Core\MonsterMaze.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="$(MonoGameVersion)" />
+    <PackageReference Include="MonoGame.Framework.Android" Version="$(MonoGameVersion)" />
+  </ItemGroup>
+</Project>

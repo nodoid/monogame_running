@@ -1,0 +1,13 @@
+<Project>
+  <!-- Settings shared by every project in this chapter's solution. -->
+  <PropertyGroup>
+    <ChapterNumber>42</ChapterNumber>
+    <MonoGameVersion>3.8.5.1</MonoGameVersion>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Company>Monster Maze</Company>
+    <Product>Monster Maze</Product>
+    <DefineConstants>$(DefineConstants);CH01;CH02;CH03;CH04;CH05;CH06;CH07;CH08;CH09;CH10;CH11;CH12;CH13;CH14;CH15;CH16;CH17;CH18;CH19;CH20;CH21;CH22;CH23;CH24;CH25;CH26;CH27;CH28;CH29;CH30;CH31;CH32;CH33;CH34;CH35;CH36;CH37;CH38;CH39;CH40;CH41;CH42</DefineConstants> <!-- @template-only -->
+  </PropertyGroup>
+</Project>

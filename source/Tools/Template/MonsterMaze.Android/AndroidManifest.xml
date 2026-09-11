@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <!-- #if CH14 -->
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <!-- #endif -->
+  <application
+    android:hardwareAccelerated="true"
+    android:isGame="true"
+    android:appCategory="game"
+    android:icon="@mipmap/ic_launcher"
+    android:roundIcon="@mipmap/ic_launcher_round" />
+</manifest>

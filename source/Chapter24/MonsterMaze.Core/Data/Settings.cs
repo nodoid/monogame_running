@@ -1,0 +1,19 @@
+using MonsterMaze.Gameplay;
+using MonsterMaze.Input;
+using MonsterMaze.Rendering;
+
+namespace MonsterMaze.Data;
+
+/// <summary>The player's preferences.</summary>
+public sealed class Settings
+{
+    public GraphicsQuality Quality { get; set; } = GraphicsQuality.High;
+
+    /// <summary>False until the player picks a quality level; until then we pick one for the device.</summary>
+    public bool QualityChosen { get; set; }
+
+    public ControlScheme Controls { get; set; } = ControlScheme.Swipe;
+    public bool Haptics { get; set; } = true;
+
+    public Difficulty LastDifficulty { get; set; } = Difficulty.Normal;
+}

@@ -1,0 +1,433 @@
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Android
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Fonts/Small.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Fonts/Small.spritefont
+
+#begin Fonts/Medium.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Fonts/Medium.spritefont
+
+#begin Fonts/Large.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Fonts/Large.spritefont
+
+#begin Fonts/Title.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Fonts/Title.spritefont
+
+#begin UI/button.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:UI/button.png
+
+#begin UI/panel.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:UI/panel.png
+
+#begin UI/icons.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:UI/icons.png
+
+#begin UI/menu_bg.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:UI/menu_bg.png
+
+
+#begin Textures/wall_stone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Compressed
+/build:Textures/wall_stone.png
+
+#begin Textures/wall_moss.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Compressed
+/build:Textures/wall_moss.png
+
+#begin Textures/wall_crystal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Compressed
+/build:Textures/wall_crystal.png
+
+#begin Textures/floor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Compressed
+/build:Textures/floor.png
+
+#begin Textures/ceiling.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Compressed
+/build:Textures/ceiling.png
+
+#begin Textures/wall_exit.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Compressed
+/build:Textures/wall_exit.png
+
+#begin Textures/exit_light.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Compressed
+/build:Textures/exit_light.png
+
+#begin Sprites/rex_sheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/rex_sheet.png
+
+#begin Audio/Sfx/ui_click.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/ui_click.wav
+
+#begin Audio/Sfx/ui_select.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/ui_select.wav
+
+#begin Audio/Sfx/ui_back.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/ui_back.wav
+
+#begin Audio/Sfx/footstep_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/footstep_1.wav
+
+#begin Audio/Sfx/footstep_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/footstep_2.wav
+
+#begin Audio/Sfx/footstep_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/footstep_3.wav
+
+#begin Audio/Sfx/footstep_4.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/footstep_4.wav
+
+#begin Audio/Music/title_music.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Music/title_music.wav
+
+#begin Audio/Sfx/wall_bump.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/wall_bump.wav
+
+#begin Audio/Sfx/rex_step.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/rex_step.wav
+
+#begin Audio/Sfx/rex_step_far.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/rex_step_far.wav
+
+#begin Audio/Sfx/rex_roar.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/rex_roar.wav
+
+#begin Audio/Sfx/rex_roar_far.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/rex_roar_far.wav
+
+#begin Audio/Sfx/rex_snort.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/rex_snort.wav
+
+#begin Audio/Sfx/rex_growl.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/rex_growl.wav
+
+#begin Audio/Sfx/heartbeat.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/heartbeat.wav
+
+#begin Audio/Sfx/stinger_seen.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/stinger_seen.wav
+
+#begin Audio/Sfx/near_miss.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/near_miss.wav
+
+#begin Audio/Sfx/chomp.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/chomp.wav
+
+#begin Audio/Sfx/escape_fanfare.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/escape_fanfare.wav
+
+#begin Audio/Sfx/drip_1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/drip_1.wav
+
+#begin Audio/Sfx/drip_2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/drip_2.wav
+
+#begin Audio/Sfx/drip_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/drip_3.wav
+
+#begin Audio/Music/ambient_loop.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Music/ambient_loop.wav
+
+#begin Audio/Music/tension_loop.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Music/tension_loop.wav
+
+#begin Audio/Music/exit_hum.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Music/exit_hum.wav
+
+#begin UI/vignette.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:UI/vignette.png
+
+#begin Sprites/particle_soft.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/particle_soft.png
+
+#begin Sprites/particle_dust.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/particle_dust.png
+
+#begin Sprites/particle_spark.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/particle_spark.png
+
+#begin Sprites/jaws_top.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/jaws_top.png
+
+#begin Sprites/jaws_bottom.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/jaws_bottom.png
+
+#begin UI/eaten_bg.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:UI/eaten_bg.png
+
+#begin UI/escape_sky.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:UI/escape_sky.png
+
+#begin Audio/Sfx/score_tick.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/score_tick.wav
+
+#begin Audio/Sfx/new_highscore.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sfx/new_highscore.wav
+
+
+

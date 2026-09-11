@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Roboto Bold at 48 points. The game draws text at many sizes; FontSet picks whichever of the
+  four sizes is closest without being smaller, so text is never blurry from being stretched.
+-->
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:FontDescription">
+    <FontName>Roboto-Bold.ttf</FontName>
+    <Size>48</Size>
+    <Spacing>0</Spacing>
+    <UseKerning>true</UseKerning>
+    <Style>Regular</Style>
+    <DefaultCharacter>?</DefaultCharacter>
+    <CharacterRegions>
+      <CharacterRegion>
+        <Start>&#32;</Start>
+        <End>&#126;</End>
+      </CharacterRegion>
+    </CharacterRegions>
+  </Asset>
+</XnaContent>

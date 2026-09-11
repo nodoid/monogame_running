@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Platforms/">
+    <Project Path="MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Project Path="MonsterMaze.Core/MonsterMaze.Core.csproj" />
+  <!-- #if CH41 -->
+  <Project Path="MonsterMaze.Tests/MonsterMaze.Tests.csproj" />
+  <!-- #endif -->
+</Solution>

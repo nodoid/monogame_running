@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Unit tests for the game's rules: maze generation, pathfinding, Rex's senses, scoring,
+    the high score table and saving. None of these need a screen, so they run anywhere.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <RootNamespace>MonsterMaze.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.0" />
+    <PackageReference Include="xunit.v3" Version="4.0.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0" />
+    <!-- The game library only compiles against MonoGame, so the tests supply a real copy of it. -->
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="$(MonoGameVersion)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MonsterMaze.Core\MonsterMaze.Core.csproj" />
+  </ItemGroup>
+</Project>

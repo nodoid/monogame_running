@@ -1,0 +1,214 @@
+<Solution>
+  <Folder Name="/Chapter 01 - Welcome to the Maze/">
+    <Project Path="Chapter01/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter01/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter01/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 02 - Setting Up Your Tools/">
+    <Project Path="Chapter02/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter02/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter02/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 03 - One Game, Two Platforms/">
+    <Project Path="Chapter03/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter03/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter03/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 04 - The Game Loop and Game States/">
+    <Project Path="Chapter04/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter04/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter04/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 05 - Representing the Maze/">
+    <Project Path="Chapter05/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter05/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter05/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 06 - Generating Random Mazes/">
+    <Project Path="Chapter06/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter06/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter06/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 07 - Seeing the Maze from Above/">
+    <Project Path="Chapter07/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter07/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter07/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 08 - 3D Fundamentals in MonoGame/">
+    <Project Path="Chapter08/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter08/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter08/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 09 - Turning a Grid into a World/">
+    <Project Path="Chapter09/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter09/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter09/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 10 - The First-Person Camera/">
+    <Project Path="Chapter10/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter10/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter10/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 11 - Textures, Lighting and Atmosphere/">
+    <Project Path="Chapter11/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter11/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter11/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 12 - High-Resolution Graphics on Mobile/">
+    <Project Path="Chapter12/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter12/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter12/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 13 - Moving Through the Maze/">
+    <Project Path="Chapter13/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter13/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter13/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 14 - Touch Controls/">
+    <Project Path="Chapter14/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter14/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter14/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 15 - Finding the Exit/">
+    <Project Path="Chapter15/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter15/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter15/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 16 - Bringing Rex to Life/">
+    <Project Path="Chapter16/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter16/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter16/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 17 - Rex’s Senses/">
+    <Project Path="Chapter17/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter17/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter17/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 18 - Hunting the Player: Pathfinding/">
+    <Project Path="Chapter18/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter18/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter18/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 19 - Rex’s Brain: A State Machine/">
+    <Project Path="Chapter19/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter19/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter19/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 20 - The Warnings/">
+    <Project Path="Chapter20/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter20/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter20/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 21 - Tuning the Fear/">
+    <Project Path="Chapter21/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter21/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter21/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 22 - Scoring/">
+    <Project Path="Chapter22/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter22/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter22/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 23 - Designing Three Difficulty Levels/">
+    <Project Path="Chapter23/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter23/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter23/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 24 - Implementing and Balancing Difficulty/">
+    <Project Path="Chapter24/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter24/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter24/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 25 - The Heads-Up Display/">
+    <Project Path="Chapter25/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter25/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter25/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 26 - Audio in MonoGame/">
+    <Project Path="Chapter26/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter26/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter26/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 27 - Sound Effects of the Maze/">
+    <Project Path="Chapter27/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter27/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter27/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 28 - Positional Audio and Tension/">
+    <Project Path="Chapter28/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter28/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter28/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 29 - Render Targets and Custom Effects/">
+    <Project Path="Chapter29/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter29/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter29/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 30 - Danger Effects/">
+    <Project Path="Chapter30/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter30/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter30/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 31 - Colour Grading and Glow/">
+    <Project Path="Chapter31/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter31/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter31/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 32 - Transitions and Particles/">
+    <Project Path="Chapter32/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter32/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter32/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 33 - Game Over State One: Eaten!/">
+    <Project Path="Chapter33/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter33/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter33/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 34 - Game Over State Two: Escaped!/">
+    <Project Path="Chapter34/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter34/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter34/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 35 - The Colourful High Score Table/">
+    <Project Path="Chapter35/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter35/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter35/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 36 - Entering Your Name/">
+    <Project Path="Chapter36/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter36/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter36/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 37 - Saving Scores and Settings/">
+    <Project Path="Chapter37/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter37/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter37/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 38 - Title Screen, Menus and Options/">
+    <Project Path="Chapter38/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter38/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter38/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 39 - Pausing and the Mobile App Life Cycle/">
+    <Project Path="Chapter39/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter39/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter39/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 40 - Performance on Mobile Devices/">
+    <Project Path="Chapter40/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter40/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter40/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 41 - Testing on Real Devices/">
+    <Project Path="Chapter41/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter41/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter41/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+    <Project Path="Chapter41/MonsterMaze.Tests/MonsterMaze.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 42 - Publishing/">
+    <Project Path="Chapter42/MonsterMaze.Core/MonsterMaze.Core.csproj" />
+    <Project Path="Chapter42/MonsterMaze.Android/MonsterMaze.Android.csproj" />
+    <Project Path="Chapter42/MonsterMaze.iOS/MonsterMaze.iOS.csproj" />
+    <Project Path="Chapter42/MonsterMaze.Tests/MonsterMaze.Tests.csproj" />
+  </Folder>
+</Solution>
