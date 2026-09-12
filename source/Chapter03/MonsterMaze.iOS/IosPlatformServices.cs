@@ -59,8 +59,11 @@ public sealed class IosPlatformServices : IPlatformServices
         if (view == null)
             return Insets.Zero;
 
+        // Ask the window rather than the game's view: the window's insets follow the rotation,
+        // so in landscape the notch or Dynamic Island moves to the left or right edge.
+        var insets = view.Window?.SafeAreaInsets ?? view.SafeAreaInsets;
+
         // UIKit measures in points; the back buffer is in pixels.
-        var insets = view.SafeAreaInsets;
         double scale = view.ContentScaleFactor;
         return new Insets(
             (int)(insets.Left * scale), (int)(insets.Top * scale),
